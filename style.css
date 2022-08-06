@@ -67,25 +67,33 @@ main img {
 main p {
     padding: 20px 0px 20px 0px;
     margin: 5px;
-    text-align: left;
+    text-align: justify;
 }
 
 .more-articles {
     border-top: 1px solid #777;
+    margin-top: 1.5em;
+    text-align: center;
 }
 
-section {
+.more-articles section {
     display: inline-block;
-    width: 335px;
-    margin: auto;
-
+    width: 44%;
+    margin: 0 1em;
 }
 
 section p {
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0 10px;
+
+}
+
+.more-articles img {
+    width: 100%;
+}
+
+.more-articles h4 {
+    font-family: 'Roboto Slab', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
-    padding: 0px 5px 0px 5px;
-    margin-right: 1.5em;
-    display: flex;
-    align-items: center;
-    justify-content: center
 }
